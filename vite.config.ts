@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/deploycraft.tech/', // Replace with your desired base path
+  base: '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
